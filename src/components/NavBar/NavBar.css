@@ -1,5 +1,8 @@
 .navbar-container {
-    background-color: antiquewhite;
+    display: block;
+}
+.navbar-link-container {
+    /* background-color: antiquewhite; */
     height: 40px;
     display: flex;
     flex-direction: row;
@@ -9,10 +12,13 @@
     top: 0;
     left:0;
     width: 100%;
-    z-index: 1000
+    padding: 20px 10%;
+    margin: 0;
+    background-color: beige;
+    /* z-index: 1000 */
 }
 
-.navbar-container > a {
+.navbar-link-container > a {
     text-decoration: none;
     color: black;
     font-size: 20px;
