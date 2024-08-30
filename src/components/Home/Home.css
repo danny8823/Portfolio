@@ -1,0 +1,31 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.info-container {
+    padding: 10px;
+}
+
+.info-container > p {
+    font-size: 20px;
+}
+
+.home-title {
+    border-bottom: 1px dotted black;
+    border-bottom-width: thin;
+    text-align: center;
+    font-size: 60px;
+}
+
+.home-description-container > p {
+    font-size: 20px;
+}
+
+.home-image {
+    width: 400px;
+    height: 400px;
+}

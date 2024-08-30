@@ -1,0 +1,19 @@
+.navbar-container {
+    background-color: antiquewhite;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 1000
+}
+
+.navbar-container > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
