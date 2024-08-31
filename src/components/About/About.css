@@ -5,13 +5,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #about-container > h1 {
     font-size: 100px;
+    border-bottom: 1px solid black;
+    width: 800px;
+    margin-bottom: 20px;
 }
 
 #about-container > p {
     font-size: 21px;
+    width: 800px;
 }
 

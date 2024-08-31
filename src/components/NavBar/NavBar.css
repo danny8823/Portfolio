@@ -18,8 +18,14 @@
     /* z-index: 1000 */
 }
 
-.navbar-link-container > a {
+.nav-links {
     text-decoration: none;
     color: black;
     font-size: 20px;
+    transition: color .5s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav-links:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
 }

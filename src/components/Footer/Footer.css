@@ -4,4 +4,20 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-icons {
+    margin: 10px;
+    font-size: 50px;
+    transition:2.5s;
+}
+
+.footer-icons:hover {
+    -o-transform:rotate(720deg);
+    -ms-transform:rotate(720deg);
+    -moz-transform:rotate(720deg);
+    -webkit-transform:rotate(720deg);
+    transform:rotate(720deg);
 }
