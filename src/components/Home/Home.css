@@ -30,3 +30,33 @@
     width: 350px;
     height: 350px;
 }
+
+@media screen and (max-width: 600px) {
+    .info-container > p {
+        font-size: 15px;
+    }
+
+    .home-title {
+        font-size: 40px;
+    }
+    
+    .home-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .home-title {
+        font-size: 40px;
+    }
+
+    .info-container > p {
+        font-size: 18px;
+    }
+    
+    .home-image {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -10,8 +10,12 @@
 
 .projects-card {
     border: 1px solid black;
-    width: 372px;
+    width: 320px;
     height: 500px;
     margin: 20px;
     padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    
 }
