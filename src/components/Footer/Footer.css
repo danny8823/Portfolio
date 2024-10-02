@@ -1,8 +1,6 @@
 #footer-container {
     height: 200px;
     background-color: beige;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
