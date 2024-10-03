@@ -5,11 +5,15 @@ function About() {
   return (
     <div id = 'about-container'>
       <h1>About me</h1>
-      <p>I come from a non-traditional background as a plumber. In the field of plumbing I fell in love with problem-solving. It was my duty to diagnose plumbing issues and provide solutions for customers.</p><br/>
+      <p>I began my career in an unconventional way—working as a plumber. It was in this hands-on field that I developed a passion for problem-solving, diagnosing complex issues, and delivering effective solutions to customers.</p>
+      <br/>
       <p>
-        I dove into the world of coding through freecodecamp and decided I wanted to take it a step further by attending school. I enrolled in Fullstack Academy and learned full-stack development. 
-      </p><br/>
-      <p>From there I never stopped learning, I am currently working as a Automation Support Specialist, where I am refinding my skills.</p><br/>
+      My interest in tackling challenges led me to explore coding through FreeCodeCamp. Eager to expand my knowledge, I enrolled at Fullstack Academy, where I gained a strong foundation in full-stack development.
+      </p>
+      <br/>
+      <p>
+      Since then, my learning journey hasn’t stopped. I’m currently working as an Automation Support Specialist, where I continue to refine and expand my technical skills, always striving to stay ahead of the curve.
+      </p>
     </div>
   )
 }
