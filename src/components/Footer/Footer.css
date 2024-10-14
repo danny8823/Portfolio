@@ -22,3 +22,16 @@
     -webkit-transform:rotate(720deg);
     transform:rotate(720deg);
 }
+
+@media (max-width: 1200px) {
+    #footer-container {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-icons {
+        font-size: 25px;
+    }
+}

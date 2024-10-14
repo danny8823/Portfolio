@@ -30,9 +30,11 @@
 
 .project-body {
     height: 100vh;
-    background-color: whit
+    background-color: white
 }
 
-@media screen and (max-width: 600px) {
-    
+@media (max-width: 600px) {
+    .project-body {
+        height: 100%;
+    }
 }
