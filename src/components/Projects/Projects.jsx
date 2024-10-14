@@ -11,20 +11,23 @@ function Projects() {
             <div className = 'projects-card'>
                 <img className = 'project-img' src = {tododo} alt = 'placeholder image'/>
                 <a href = 'https://spiffy-gecko-cb142b.netlify.app/'>TODODO APP</a>
-                <h1>TODODO</h1>
                 <p>A simple CRUD todo app, make an account and start your todo list, it comes with a cool dashboard!</p>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+                <small>JS, EXPRESS, MONGODB, REACT, TAILWIND</small>
             </div>
             <div className = 'projects-card'>
                 <img className = 'project-img' src = {golfsite} alt = 'placeholder image'/>
-                <a href = 'https://golfworld123456.netlify.app/'>DONT SHANK</a>
-                <h1>Dont Shank Golf Shop</h1>
+                <a href = 'https://golfworld123456.netlify.app/'>DONT SHANK GOLF SHOP</a>
                 <p>An e-commerce site that sells everything golf. Just do not shank with our products.</p>
+                <br/><br/><br/><br/><br/><br/><br/>
+                <small>JS, EXPRESS, MONGODB, REACT</small>
             </div>
             <div className = 'projects-card'>
                 <img className = 'project-img' src = {facepage} alt = 'placeholder image'/>
                 <a href = 'https://facepage123456.netlify.app/'>FacePage</a>
-                <h1>FacePage</h1>
                 <p>A more simple version of facebook, facepage. Come socalize online with us.</p>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <small>JS, EXPRESS, MONGODB, REACT</small>
             </div>
         </div>
     </div>

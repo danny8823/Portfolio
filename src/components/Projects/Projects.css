@@ -13,8 +13,16 @@
     height: 500px;
     margin: 20px;
     padding: 10px;
+    text-align: center;
+    box-shadow: 5px 2px 2px black;
 }
 
+.projects-card > a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 .project-img {
     width: 300px;
     height: 200px;
@@ -22,7 +30,9 @@
 
 .project-body {
     height: 100vh;
+    background-color: whit
 }
+
 @media screen and (max-width: 600px) {
     
 }
