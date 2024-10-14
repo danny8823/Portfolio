@@ -23,7 +23,7 @@
     transform:rotate(720deg);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     #footer-container {
         height: 40px;
         width: 100%;

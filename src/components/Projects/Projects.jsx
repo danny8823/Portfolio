@@ -3,6 +3,7 @@ import './Projects.css'
 import tododo from '../../assets/tododo preview.jpg'
 import golfsite from '../../assets/dontshank-ecomm.jpg'
 import facepage from '../../assets/facepage-site.jpg'
+import govibeimg from '../../assets/govibe-img.jpg'
 function Projects() {
   return (
     <div className = 'project-body'>
@@ -28,6 +29,15 @@ function Projects() {
                 <p>A more simple version of facebook, facepage. Come socalize online with us.</p>
                 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 <small>JS, EXPRESS, MONGODB, REACT</small>
+            </div>
+            <div className = 'projects-card'>
+                <img className = 'project-img' src = {govibeimg} alt = 'placeholder image'/>
+                <a href = 'https://www.youtube.com/watch?v=WLGEAm2LoDY'>GoVibeApp</a>
+                <p>A final group project. An IOS app using the PERN stack. Users can find activities using google maps to invite friends to do together.
+                Used google maps API and a third party api to render data onto maps.
+                </p>
+                <br/><br/><br/><br/><br/>
+                <small>JS, EXPRESS, MONGODB, REACT-NATIVE, GOOGLEMAPS-API</small>
             </div>
         </div>
     </div>
