@@ -4,6 +4,7 @@ import tododo from '../../assets/tododo preview.jpg'
 import golfsite from '../../assets/dontshank-ecomm.jpg'
 import facepage from '../../assets/facepage-site.jpg'
 import govibeimg from '../../assets/govibe-img.jpg'
+import nbasiteImg from '../../assets/nba_site.jpg'
 function Projects() {
   return (
     <div className = 'project-body'>
@@ -38,6 +39,14 @@ function Projects() {
                 </p>
                 <br/><br/><br/><br/><br/>
                 <small>JS, EXPRESS, MONGODB, REACT-NATIVE, GOOGLEMAPS-API</small>
+            </div>
+            <div className = 'projects-card'>
+                <img className = 'project-img' src = {nbasiteImg} alt = 'placeholder image'/>
+                <a href = 'https://nbastats.netlify.app/'>NBA stats</a>
+                <p>A simple web site displaying NBA teams using nba stats api. Users can click on a team and view some current stats along with players on the team. Additionally they can also click the players for more stats.
+                </p>
+                <br/><br/><br/><br/><br/>
+                <small>REACT, API</small>
             </div>
         </div>
     </div>
