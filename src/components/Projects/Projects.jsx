@@ -12,7 +12,7 @@ function Projects() {
         <div className = 'projects-container'>
             <div className = 'projects-card'>
                 <img className = 'project-img' src = {tododo} alt = 'placeholder image'/>
-                <a href = 'https://spiffy-gecko-cb142b.netlify.app/'>TODODO APP</a>
+                <a href = 'https://spiffy-gecko-cb142b.netlify.app/'>TODO APP</a>
                 <p>A simple CRUD todo app, make an account and start your todo list, it comes with a cool dashboard!</p>
                 <br/><br/><br/><br/><br/><br/><br/><br/>
                 <small>JS, EXPRESS, MONGODB, REACT, TAILWIND</small>
