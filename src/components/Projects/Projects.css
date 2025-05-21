@@ -29,7 +29,7 @@
 }
 
 .project-body {
-    height: 100vh;
+    height: auto;
     background-color: white
 }
 
